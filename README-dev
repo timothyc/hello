@@ -39,7 +39,7 @@ follows:
 Gnulib
 ------
 
-This distribution also uses Gnulib (http://www.gnu.org/software/gnulib)
+This distribution also uses Gnulib (https://www.gnu.org/software/gnulib)
 to share common files, stored as a submodule in git.
 
 

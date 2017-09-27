@@ -13,7 +13,7 @@
    GNU General Public License for more details.
 
    You should have received a copy of the GNU General Public License
-   along with this program.  If not, see <http://www.gnu.org/licenses/>.  */
+   along with this program.  If not, see <https://www.gnu.org/licenses/>.  */
 
 #include <config.h>
 
@@ -152,11 +152,11 @@ print_help (FILE *restrict out)
   if (lc_messages && STRNCMP_LIT (lc_messages, "en_"))
     {
       /* TRANSLATORS: Replace LANG_CODE in this URL with your language code
-	 <http://translationproject.org/team/LANG_CODE.html> to form one of
-	 the URLs at http://translationproject.org/team/.  Otherwise, replace
+	 <https://translationproject.org/team/LANG_CODE.html> to form one of
+	 the URLs at https://translationproject.org/team/.  Otherwise, replace
 	 the entire URL with your translation team's email address.  */
       fprintf (out, _("Report %s translation bugs to "
-		"<http://translationproject.org/team/>\n"), PACKAGE_NAME);
+		"<https://translationproject.org/team/>\n"), PACKAGE_NAME);
     }
 #ifdef PACKAGE_PACKAGER_BUG_REPORTS
   fprintf (out, _("Report %s bugs to: %s\n"), PACKAGE_PACKAGER,
@@ -165,10 +165,10 @@ print_help (FILE *restrict out)
 #ifdef PACKAGE_URL
   fprintf (out, _("%s home page: <%s>\n"), PACKAGE_NAME, PACKAGE_URL);
 #else
-  fprintf (out, _("%s home page: <http://www.gnu.org/software/%s/>\n"),
+  fprintf (out, _("%s home page: <https://www.gnu.org/software/%s/>\n"),
 	  PACKAGE_NAME, PACKAGE);
 #endif
-  fputs (_("General help using GNU software: <http://www.gnu.org/gethelp/>\n"),
+  fputs (_("General help using GNU software: <https://www.gnu.org/gethelp/>\n"),
 	 out);
   exit(out == stderr ? EXIT_FAILURE : EXIT_SUCCESS);
 }
@@ -189,7 +189,7 @@ print_version (void)
      year comes around.  */
   printf (_("\
 Copyright (C) %d Free Software Foundation, Inc.\n\
-License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n\
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>\n\
 This is free software: you are free to change and redistribute it.\n\
 There is NO WARRANTY, to the extent permitted by law.\n"), COPYRIGHT_YEAR);
 }

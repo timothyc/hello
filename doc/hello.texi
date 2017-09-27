@@ -72,7 +72,7 @@ which prints a friendly greeting (and serves as an example GNU package).
 @cindex overview
 
 The GNU @command{hello} program
-(@url{http://www.gnu.org/software/hello/}) produces a familiar,
+(@url{https://www.gnu.org/software/hello/}) produces a familiar,
 friendly greeting.  It allows nonprogrammers to use a classic computer
 science tool which would otherwise be unavailable to them.  Because it
 is protected by the GNU General Public License, users are free (in
@@ -144,7 +144,7 @@ HTML, PDF, DVI, plain text, XML, and other formats.
 
 GNU Hello is implemented in C@.  The GNU Gettext distribution contains
 ``hello world'' examples in many other programming languages; see the
-Gettext home page at @url{http://www.gnu.org/software/gettext/}.
+Gettext home page at @url{https://www.gnu.org/software/gettext/}.
 
 @cindex @file{Makefile.am} targets
 The top-level @file{Makefile.am} in Hello also contains a few special
@@ -162,7 +162,7 @@ messages.
 
 @item wwwdoc
 Sample procedure for updating the manual on the GNU web site, in this
-case @url{http://www.gnu.org/software/hello/manual/}.
+case @url{https://www.gnu.org/software/hello/manual/}.
 @end table
 
 @cindex authors

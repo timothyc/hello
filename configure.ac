@@ -13,7 +13,7 @@ dnl implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 AC_INIT([GNU Hello],
 	[m4_esyscmd([build-aux/git-version-gen .tarball-version])],
 	[bug-hello@gnu.org], [],
-	[http://www.gnu.org/software/hello/])
+	[https://www.gnu.org/software/hello/])
 
 dnl Must come before AM_INIT_AUTOMAKE.
 AC_CONFIG_AUX_DIR([build-aux])
