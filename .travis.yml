@@ -3,4 +3,4 @@ addons:
   apt:
     packages:
     - m4
-script: autoconf && ./configure && make && make test
+script: autoreconf --install && ./configure && make && make test
