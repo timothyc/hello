@@ -3,5 +3,6 @@ addons:
   apt:
     packages:
     - autopoint
+    - help2man
     - texinfo
 script: ./bootstrap && ./configure && make && make test
