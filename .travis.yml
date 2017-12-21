@@ -4,4 +4,5 @@ addons:
     packages:
     - m4
     - libtool
+    - autopoint
 script: autoreconf --install && ./configure && make && make test
