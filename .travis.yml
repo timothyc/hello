@@ -3,4 +3,5 @@ addons:
   apt:
     packages:
     - m4
+    - libtool
 script: autoreconf --install && ./configure && make && make test
