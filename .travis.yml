@@ -5,4 +5,4 @@ addons:
     - autopoint
     - help2man
     - texinfo
-script: ./bootstrap && ./configure && make && make test
+script: ./bootstrap && ./configure && make
