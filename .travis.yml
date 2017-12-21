@@ -2,7 +2,6 @@ language: c
 addons:
   apt:
     packages:
-    - m4
-    - libtool
     - autopoint
+    - texinfo
 script: ./bootstrap && ./configure && make && make test
