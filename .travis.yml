@@ -5,4 +5,4 @@ addons:
     - m4
     - libtool
     - autopoint
-script: autoreconf --force --install && ./bootstrap && ./configure && make && make test
+script: ./bootstrap && autoreconf --force --install && ./configure && make && make test
